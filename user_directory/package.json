@@ -1,6 +1,6 @@
 {
   "homepage": "https://behnert.github.io/19-User_Directory",
-  "name": "user_directory",
+  "name": "19-User_Directory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
