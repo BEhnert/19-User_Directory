@@ -11,7 +11,6 @@ useEffect(() => {
   fetch('https://randomuser.me/api/?results=50&inc=picture,name,phone,email,dob')
   .then(response => response.json())
   .then(data => {
-    console.log(data.results)
     setEmployees(data.results)
     setFilteredEmployees(data.results)
   })
@@ -25,7 +24,6 @@ const handleInputs = (event) => {
   (each.phone.includes(value)) || 
   (each.email.includes(value)) ||
   (each.dob.date.includes(value)))))
-console.log(filteredEmployees);
 setFilteredEmployees(filteredEmployees);
 
 }
